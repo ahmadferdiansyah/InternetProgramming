@@ -1,0 +1,16 @@
+<!-- any content can be specified here e.g.: -->
+<jsp:directive.page pageEncoding="UTF-8"/>
+<jsp:element name="title">
+</jsp:element>
+<div style="display: flex; flex-direction: column; padding: 20px 0 60px 0; justify-content: center; align-items: center;">
+    <img src="https://cdn.idntimes.com/content-images/community/2019/11/momoland-header-284fe35e22622d8794b9159dcda947fd_600x400.png">
+    
+    <h1 style="margin: 0; margin-top: 20px;">GET YOUR TICKET !!</h1>
+    <hr size="5px" width="1000px" color="orange">
+
+    <form method="GET" action="index.jsp" style="margin: 0; margin-top: 20px;">
+        <input type="hidden" name="action" value="search">
+        <input type="text" name="keyword" placeholder="Cari tiket disini gan...">
+        <input type="submit" value="Cari">
+    </form>
+</div>
